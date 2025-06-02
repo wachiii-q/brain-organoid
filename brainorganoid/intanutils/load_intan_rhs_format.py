@@ -12,14 +12,14 @@ import icecream as ic
 
 import matplotlib.pyplot as plt
 
-from intanutil.header import (read_header,
+from brainorganoid.intanutils.header import (read_header,
                               header_to_result)
-from intanutil.data import (calculate_data_size,
+from brainorganoid.intanutils.data import (calculate_data_size,
                             read_all_data_blocks,
                             check_end_of_file,
                             parse_data,
                             data_to_result)
-from intanutil.filter import apply_notch_filter
+from brainorganoid.intanutils.filter import apply_notch_filter
 
 
 def read_data(filename):

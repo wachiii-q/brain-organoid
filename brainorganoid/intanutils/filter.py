@@ -5,7 +5,7 @@
 import math
 import numpy as np
 
-from intanutil.report import print_progress
+from brainorganoid.intanutils.report import print_progress
 
 
 def apply_notch_filter(header, data):

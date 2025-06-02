@@ -6,7 +6,7 @@ the Python level with dictionaries.
 
 import struct
 
-from intanutil.report import read_qstring
+from brainorganoid.intanutils.report import read_qstring
 
 
 def read_header(fid):
